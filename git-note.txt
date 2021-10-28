@@ -1,0 +1,125 @@
+Git Commands
+------------------------------------------------------
+
+git init
+/* initialize an existing directory as a Git repository */
+
+git branch
+/* list all branches of current repository/project
+   a * will appear next to the currently active branch		     */
+
+git branch [branch name]
+/* create a new branch [developerName/Task] at the current commit  */
+
+git branch -D [branch name]
+/* delete the branch 'branch name' */
+
+git checkout [desired commit code]
+/* go to the desired commit point of the current branch */
+
+git checkout [desired branch]
+/* switch to the desired branch */
+
+git checkout -b [branch name]
+/* create and switch to the branch 'branch name' */
+
+git status
+/* show modified (new, edit, delete) files in working directory, staged for the next commit */
+/* especially show the files that are new/different from the previous commit point */
+
+git config --global user.name "User Name"
+/* define version controller/maker's name for all local repositories */
+
+git config --global user.email "User Email"
+/* define version controller/author's email for all local repositories */
+
+git add [file]
+/* add a (new/modified) file to next commit (stage) */
+
+git add .
+/* add all (project) files to the next commit */
+
+git add --all
+/* use this command if 'git add .' doesn't work. */
+
+git commit -m "Descriptive Commit Message"
+/* commit the staged content with a new commit point */
+
+git log
+/* show all commits in the current branch’s history of the project */
+
+git log --oneline
+/* show all commints in one line */
+
+git log --oneline -m
+/* show the last m commits in one line */
+
+git reset --hard [desired commit code]
+/* go to the desired commit point */
+/* remove all the commits after this commit point */
+
+git restore .
+/* undo the modified files in the working directory before the next commit */
+
+git clean -f
+/* remove all new files after the previous commit point */
+
+git clean -fd
+/* remove all new folders after the previous commit point */
+
+git remote add [alias] [url]
+/* add a remote git repository URL as an alias e.g., 'origin' */
+
+git branch -M main
+/* change the branch name 'master' to 'main' /
+
+git push -u [alias] main
+git push -u [alias] [branch name]
+/* push/upload local branch 'main' to the remote repository branch */
+
+
+
+/* ----------- If pushing the local branch as remote repository branch isn't OK, 
+   ----------- use the following commands.                                          */
+
+
+git remote -v
+/* check the connected remote server or repository */
+
+ssh-keygen
+/* generate SSH key pair for user authentication */
+
+cat ~/.ssh/id_rsa.pub
+/* show the SSH key */
+
+
+/* --------------------------------------- */
+
+
+
+git clone [url] [project name-optional]
+/* clone the entire repository from the hosted location via URL using HTTPS */
+
+git pull [alias] [branch name]
+/* pull the remote branch 'branch name' to local */
+
+------------------------------
+
+git fetch [alias]
+/* fetch down all the branches from that Git remote repository */
+
+
+
+/* --------------------------------------- */
+
+
+code .
+/* opening the code editor, e.g., VS Code */
+
+
+
+
+
+
+
+
