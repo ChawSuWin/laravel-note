@@ -1,0 +1,11 @@
+Development Team Rules 
+-------------------------------------
+
+1. task အသစ်ရေးတိုင်း dev branch ကို update ဖြစ်အောင်လုပ်ပါ။ (git pull)
+2. new branch ကို dev က တဆင့် ခွဲရမယ်။
+3. branch name ကို ဒီ format အတိုင်း ပေးရမယ် developer_name/task_name
+4. main branch နဲ့ dev branch ကို တိုက်ရိုက် push မလုပ်ရ
+5. main branch နဲ့ dev branch ကို github ပေါ်တွင်လည်း merge မလုပ်ရ
+6. မိမိစက်ထဲတွင် branch များကို လုံး၀ merge မလုပ်ရ။ (code merge လုပ်ခြင်းသည် team leader ၏ တာ၀န်သာ ဖြစ်သည်)
+7. မိမိရေးထားသော branch ကိုသာ push လုပ်ရန်
+8. commit လုပ်ချိန်တွင် sql file အား document folder ထဲတွင် ထားပါ။ sql file name အား ဒီ format အတိုင်း ပေးရန် dbname/task_name.sql
